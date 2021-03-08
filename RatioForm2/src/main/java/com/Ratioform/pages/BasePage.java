@@ -25,9 +25,9 @@ public class BasePage {
 	ExtentTest test;
 	
 	//To fetch the screenshot and send to destination file
-	 public  String getScreenshot(WebDriver driver,String screenshotname) throws IOException {
+	 public  String getScreenshot(WebDriver driver,String screenshotname, String name) throws IOException {
 			File scrFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-			String destination = System.getProperty("destination" ,"C:\\eclipse-workspace\\AutomationReports\\screenshots\\screenshots.png");
+			String destination = System.getProperty("destination" ,"C:\\eclipse-workspace\\AutomationReports\\screenshots\\screenshots_"+ name +".png");
 			File finaldestination=new File(destination);
 			FileUtils.copyFile(scrFile,finaldestination );
 			return destination;

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Ratioform.Testcases.TC_SearchTest_04">
+      <class name="com.Ratioform.Testcases.TC_SearchTest_06">
         <methods>
+          <include name="setUp"/>
           <include name="verifySearch"/>
           <include name="TearDown"/>
-          <include name="setUp"/>
         </methods>
-      </class> <!-- com.Ratioform.Testcases.TC_SearchTest_04 -->
+      </class> <!-- com.Ratioform.Testcases.TC_SearchTest_06 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
