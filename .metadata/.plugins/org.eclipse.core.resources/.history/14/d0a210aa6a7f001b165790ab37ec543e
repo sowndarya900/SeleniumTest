@@ -1,0 +1,27 @@
+
+package com.Ratioform.Testcases;
+
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+/** 
+ * @author Surya Teja Kallakuri
+ *
+ */
+public class Ratioformlogin {
+	
+	@Test
+	public void verifyvalidlogin(String url) {
+		
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get(url);
+		
+		}	
+
+	
+	
+}

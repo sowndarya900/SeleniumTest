@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package com.Ratioform.pages;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+/**
+ * @author Sowndarya
+ *
+ */
+public class ProductPage {
+	WebDriver driver;
+	
+	public void selectproduct() {
+		
+		List<WebElement> myElements = driver.findElements(By.xpath("//a[@class='variant-btn']"));
+        System.out.println("Size of List: "+myElements.size());
+        for(WebElement e : myElements) 
+        {        
+            System.out.print("Text within the Anchor tab"+e.getText()+"\t");
+            System.out.println("Anchor: "+e.getAttribute("href"));
+        }
+		
+	}
+
+}

@@ -1,0 +1,104 @@
+/**
+ * 
+ */
+package com.Ratioform.Testcases;
+
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.Ratioform.pages.BasePage;
+import com.Ratioform.pages.ProductPage;
+import com.Ratioform.pages.SearchPage;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
+/**
+ * @author Surya Teja Kallakuri
+ *
+ */
+public class ProductTest extends  BasePage{
+	
+	WebDriver driver;
+	ExtentReports extent;
+	ExtentTest test;
+
+
+	@BeforeMethod
+	public void setUp() throws InterruptedException {
+		//		 set path of the chrome driver
+		System.setProperty("webdriver.chrome.driver", "C:\\BrowserDriver\\chromedriver.exe");
+		//		 initialize new webdriver
+		driver=new ChromeDriver();
+		String fileName = new SimpleDateFormat("yyyyMMddHHmm'.txt'").format(new Date());
+		extent = new ExtentReports("C:\\eclipse-workspace\\AutomationReports\\ExtentReports("+fileName+").html");
+		extent.addSystemInfo("Environment", "QA");
+		extent.addSystemInfo("User Name", "QA_User");
+		String s=this.getClass().getSimpleName();
+		test=extent.startTest(s,"This is a test to Verify Product page");
+		driver.get("https://www.ratioform.at/.");
+		driver.manage().window().maximize();
+		//driver.wait(3);
+		String title= driver.getTitle();
+		System.out.println(title);
+		Assert.assertEquals(true, title.contains("Verpackung & Verpackungsmaterial"));
+		test.log(LogStatus.PASS," Successfully Navigated to RatioForm Homepage");
+
+	}
+
+
+	@Test
+	public void verifyProduct() throws InterruptedException {
+		SearchPage sp=new SearchPage(driver);
+		ProductPage pp=new ProductPage(driver);
+		boolean searchboxdisplayed =sp.SearchProduct("wellpapp");
+		Assert.assertEquals(searchboxdisplayed, true);
+		test.log(LogStatus.PASS," Searchbox is Displayed  in homepage");
+		test.log(LogStatus.INFO," Entered wellpapp in searchbox");
+		//sp.ClickSearchButton();
+//		boolean searchtextdisplayed=sp.verifysearchtext();
+//		Assert.assertEquals(searchtextdisplayed, true);
+		test.log(LogStatus.PASS,"Successfully Displayed Wellpapp in suggetionlayer");
+		
+		//pp.selectproduct();
+		boolean productpage=pp.verifyproductpage();
+		Assert.assertEquals(productpage, true);
+		test.log(LogStatus.PASS,"Successfully selected Wellpapp in searchbox");
+	
+	}
+
+
+	@AfterMethod
+	public void TearDown(ITestResult Result) throws IOException {
+		System.out.println("Result.getStatus()"+Result.getStatus());
+		if(Result.getStatus()==ITestResult.SUCCESS) {
+			test.log(LogStatus.PASS, "Successfully Redirected to productpage");
+			String screenshotpath=getScreenshot(driver, Result.getName());
+			String image= test.addScreenCapture(screenshotpath);
+			test.log(LogStatus.PASS, " Successfully Redirected to productpage", image);		
+			extent.endTest(test);
+		}
+		if(Result.getStatus()==ITestResult.FAILURE) {
+			test.log(LogStatus.FAIL, "unable to   Redirect to productpage");
+			String screenshotpath1=getScreenshot(driver, Result.getName());
+			String image1= test.addScreenCapture(screenshotpath1);
+			test.log(LogStatus.FAIL, "unable to   Redirect to productpage", image1);		
+			extent.endTest(test);
+
+		}
+		extent.flush();
+		driver.close();
+		driver.quit();
+	}
+
+
+}

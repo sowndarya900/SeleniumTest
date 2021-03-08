@@ -1,0 +1,37 @@
+package ratioForm2;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+public class Navigation {
+
+	public static void main(String[] args) {
+		
+		ExtentHtmlReporter htmlreporter=new ExtentHtmlReporter("extentreport.html");
+	       
+	       ExtentReports extent = new ExtentReports();
+	       extent.attachReporter(htmlreporter);
+	       ExtentTest test=extent.createTest("Navigate to Ratioform Website","This is a test to validate Navigation functionality");
+
+	
+		System.setProperty("webdriver.chrome.driver", "C:\\BrowserDriver\\chromedriver.exe");
+	    ChromeDriver driver=new ChromeDriver();
+	    test.log(Status.INFO, "starting Test Case");
+        driver.get("www.amazon.de");
+       if( driver.findElementByXPath("//*[@class='nav-logo-link nav-progressive-attribute']").isDisplayed());
+       {
+    	   test.log(Status.PASS,"Navigated to RatioForm Homepage");
+    	   
+	   }
+       driver.close();
+       driver.quit();
+       extent.flush();
+       
+       
+	}
+
+}

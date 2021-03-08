@@ -1,0 +1,123 @@
+/**
+ * 
+ */
+package com.Ratioform.pages;
+
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+
+/**
+ * @author Sowndarya
+ *
+ */
+public class SearchPage {
+	WebDriver driver;
+
+	By searchbox=By.xpath("(//input[@name='searchQuery'])[1]");
+	By searchbutton=By.xpath("(//span[@class='search-text'])[1]");
+	By searchtext=By.xpath("//div[@class='heading-wrapper']/h1[text()='Ergebnisse für \"wellpapp\"']");
+
+	public SearchPage(WebDriver driver) 
+	{
+		this.driver=driver;
+	}
+
+
+	public Boolean SearchProduct(String Productname) throws InterruptedException 
+	{
+
+		Boolean searchboxdisplayed=driver.findElement(searchbox).isDisplayed();
+		driver.findElement(searchbox).sendKeys(Productname);
+		driver.findElement(searchbox).click();
+		Thread.sleep(300);
+		  // Javascript executor class with executeScript method
+	      JavascriptExecutor j = (JavascriptExecutor) driver;
+	      // identify element and set value
+	      WebElement element = driver.findElement(By.xpath("(//div[@class='suggestion-product']/a)[1]"));
+	    		  j.executeScript("arguments[0].click();", element);
+	    		  
+	      j.executeScript ("document.getElementById('displayed-text').value='wellpapp';");
+	     String s = (String) j.executeScript("return document.getElementById('displayed-text').value");
+	      System.out.print("Value entered in hidden field: " +s);
+	   
+		// driver.findElement(By.xpath("(//div[@class='suggestion-product']/a)[1]")).sendKeys("wellpapp");
+		// driver.findElement(By.xpath("(//div[@class='suggestion-product']/a)[1]")).sendKeys(Keys.ARROW_DOWN);
+				//elem.send_keys("remote")
+				//elem.send_keys(Keys.ARROW_DOWN)
+
+				//wait for the first dropdown option to appear and open it
+			//	first_option = WebDriverWait(driver, 10).until(EC.visibility_of_element_located(xpath("(//div[@class='suggestion-product']/a)[1]")));
+				new WebDriverWait(driver, 20).until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//div[@class='suggestion-product']/a)[1]"))).sendKeys(Keys.RETURN);
+						
+		//Select dropdown = new Select(driver.findElement(By.name("searchQuery")));
+		//dropdown.selectByIndex(1);
+		
+//		 WebElement el = driver.findElement( By.name("searchQuery" ));    
+//		  Actions builder = new Actions(driver);    
+//		  builder.moveToElement( el ).click( el );    	
+//		  builder.perform(); 
+		
+//		Actions actions = new Actions(driver);
+//		WebElement menu = driver.findElement(By.name("searchQuery"));
+//		actions.moveToElement(menu);
+		driver.findElement(By.name("searchQuery")).click();
+		
+//		List<WebElement> myList = new WebDriverWait(driver, 20).until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.name("searchQuery")));
+//		for (WebElement element:myList) {
+//		    if(element.getText().contains("wellpapp"))
+//		element.click();
+//		    break;
+//		}
+//		WebElement subMenu = driver.findElement(By.xpath("//*[@id='menu-links']/ul/li[2]/a"));
+//		actions.moveToElement(subMenu);
+//		actions.click().build().perform();
+//		WebDriverWait wait = new WebDriverWait(driver,30);
+//		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.name("searchQuery")));
+//		
+//		List<WebElement> list = driver.findElements(By.id("locSelectVal"));
+//		
+//		System.out.println("Auto Suggest List ::" + list.size());
+//		
+//		for(int i = 1 ;i< list.size();i++)
+//		{
+//			System.out.println(list.get(i).getText());
+//			
+//			if(list.get(i).getText().equals("Glen Allen"))
+//			{
+//				list.get(i).click();
+//				break;
+//			
+//			
+//			}
+		return searchboxdisplayed;
+	}
+		
+		
+	
+
+	public void ClickSearchButton() 
+	{
+		driver.findElement(searchbutton).click();
+
+	}
+
+	public Boolean verifysearchtext() {
+
+		driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+		Boolean searchtextdisplayed =driver.findElement(searchtext).isDisplayed();
+		return searchtextdisplayed;
+
+	}
+}

@@ -1,0 +1,47 @@
+package com.Ratioform.Testcases;
+
+import org.testng.annotations.Test;
+
+import com.Ratioform.pages.BasePage;
+import com.Ratioform.pages.SearchPage;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
+import org.testng.annotations.BeforeClass;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+
+public class SearchTest extends BasePage{
+	WebDriver driver;
+	ExtentReports extent;
+	ExtentTest test;
+	test=extent.startTest("Navigate to Ratioform Website","This is a test to validate Navigation functionality");
+	test.log(LogStatus.INFO, "Starting Test Case");
+	test.log(LogStatus.INFO, "Entering URL");
+  @Test
+  public void verifySearch() {
+	  SearchPage sp=new SearchPage(driver);
+	  sp.SearchProduct("plates");
+	  sp.ClickSearchButton();
+	  
+  }
+  
+  @BeforeClass
+  public void setUp() throws InterruptedException {
+		init();
+		String title=driver.getTitle();
+		Assert.assertEquals(true, title.contains("Amazon"));
+				test.log(LogStatus.PASS," Successfully Navigated to RatioForm Homepage");
+				
+  }
+
+  @AfterClass
+  public void tearDown() {
+	  
+	  
+  }
+
+}

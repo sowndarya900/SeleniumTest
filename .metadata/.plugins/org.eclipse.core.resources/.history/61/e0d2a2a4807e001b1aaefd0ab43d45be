@@ -1,0 +1,41 @@
+/**
+ * 
+ */
+package com.Ratioform.pages;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+/**
+ * @author Sowndarya
+ *
+ */
+public class ProductPage {
+	WebDriver driver;
+	
+	public ProductPage(WebDriver driver) 
+	{
+		this.driver=driver;
+	}
+		public void selectproduct() {
+		int j=1;
+		boolean foundCollector = false;
+		List<WebElement> myElements = driver.findElements(By.xpath("//a[@class='variant-btn']"));
+        System.out.println("Size of List: "+myElements.size());
+        for(WebElement e : myElements) 
+        {        
+        	 String c = e.findElement(By.xpath("(//a[@class='variant-btn']["+j+"]")).getText();
+        	    if(c.equals("Zu den Artikeln")) {
+        	        foundCollector = true;
+        	        break;
+        	    }
+        	    ++j;
+            System.out.println("Anchor: "+e.getText());
+        }
+		
+	}
+
+}

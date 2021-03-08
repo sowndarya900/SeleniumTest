@@ -1,0 +1,51 @@
+/**
+ * 
+ */
+package com.Ratioform.pages;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+/**
+ * @author 
+ *
+ */
+public class BasePage {
+WebDriver driver=null;
+
+public void init() {
+System.setProperty("webdriver.chrome.driver", "C:\\BrowserDriver\\chromedriver.exe");
+//		 initialize new webdriver
+ driver=new ChromeDriver();
+ String URL=getproperty("URL");
+}
+
+public String getproperty(String url) {
+	static File file=new File("");
+	public static String getProperty(String propkey)
+	{
+		FileInputStream fileinput=null;
+		try {
+			fileinput =new FileInputStream(file);
+		}catch(FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		
+		Properties prop=new Properties();
+		
+	try {
+		prop.load(fileinput);
+	}
+	
+	catch(IOException e){
+	e.printStackTrace();
+}
+	return prop.getProperty(propkey);
+	}
+}
