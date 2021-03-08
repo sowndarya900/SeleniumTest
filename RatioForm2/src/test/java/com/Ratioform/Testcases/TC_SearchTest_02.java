@@ -63,13 +63,13 @@ public class TC_SearchTest_02 extends BasePage{
 	public void TearDown(ITestResult Result) throws IOException {
 		System.out.println("Result.getStatus()"+Result.getStatus());
 		if(Result.getStatus()==ITestResult.SUCCESS) {
-			String screenshotpath=getScreenshot(driver, Result.getName());
+			String screenshotpath=getScreenshot(driver, Result.getName(),"TC2");
 			String image= test.addScreenCapture(screenshotpath);
 			test.log(LogStatus.PASS, "Successfully Displayed relevant Suggestion for Search Text in suggestionlayer", image);		
 			extent.endTest(test);
 		}
 		if(Result.getStatus()==ITestResult.FAILURE) {
-			String screenshotpath1=getScreenshot(driver, Result.getName());
+			String screenshotpath1=getScreenshot(driver, Result.getName(),"TC2");
 			String image1= test.addScreenCapture(screenshotpath1);
 			test.log(LogStatus.FAIL, "unable to Display relevant Suggestion for Search Text in suggestionlayer", image1);		
 			extent.endTest(test);

@@ -66,14 +66,14 @@ public class TC_SearchTest_05 extends BasePage{
 		System.out.println("Result.getStatus()"+Result.getStatus());
 		if(Result.getStatus()==ITestResult.SUCCESS) {
 //			test.log(LogStatus.PASS, "Successfully Redirected to Product page");
-			String screenshotpath=getScreenshot(driver, Result.getName());
+			String screenshotpath=getScreenshot(driver, Result.getName(),"TC5");
 			String image= test.addScreenCapture(screenshotpath);
 			test.log(LogStatus.PASS, "Successfully Displayed Wellpapp products on Homepage", image);		
 			extent.endTest(test);
 		}
 		if(Result.getStatus()==ITestResult.FAILURE) {
 			test.log(LogStatus.FAIL, " unable to Display Wellpapp products on Homepage");
-			String screenshotpath1=getScreenshot(driver, Result.getName());
+			String screenshotpath1=getScreenshot(driver, Result.getName(),"TC5");
 			String image1= test.addScreenCapture(screenshotpath1);
 			test.log(LogStatus.FAIL, "unable to Display Wellpapp products on Homepage", image1);		
 			extent.endTest(test);

@@ -51,13 +51,13 @@ public class NavigationTest extends BasePage{
 	public void TearDown(ITestResult Result) throws IOException {
 		System.out.println("Result.getStatus()"+Result.getStatus());
 		if(Result.getStatus()==ITestResult.SUCCESS) {
-			String screenshotpath=getScreenshot(driver, Result.getName());
+			String screenshotpath=getScreenshot(driver, Result.getName(),"TC0");
 			String image= test.addScreenCapture(screenshotpath);
 			test.log(LogStatus.PASS, "Successfully Navigated to RatioForm Homepage", image);		
 			extent.endTest(test);
 		}
 		if(Result.getStatus()==ITestResult.FAILURE) {
-			String screenshotpath1=getScreenshot(driver, Result.getName());
+			String screenshotpath1=getScreenshot(driver, Result.getName(),"TC0");
 			String image1= test.addScreenCapture(screenshotpath1);
 			test.log(LogStatus.FAIL, "Failed to Navigate to RatioForm Homepage", image1);		
 			extent.endTest(test);

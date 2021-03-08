@@ -62,14 +62,14 @@ public class TC_SearchTest_04 extends BasePage{
 		System.out.println("Result.getStatus()"+Result.getStatus());
 		if(Result.getStatus()==ITestResult.SUCCESS) {
 //			test.log(LogStatus.PASS, "Successfully Redirected to Product page");
-			String screenshotpath=getScreenshot(driver, Result.getName());
+			String screenshotpath=getScreenshot(driver, Result.getName(),"TC4");
 			String image= test.addScreenCapture(screenshotpath);
 			test.log(LogStatus.PASS, "Successfully verified search box  for invalid search Text", image);		
 			extent.endTest(test);
 		}
 		if(Result.getStatus()==ITestResult.FAILURE) {
 			test.log(LogStatus.FAIL, " unable to verify search box  for invalid search Text");
-			String screenshotpath1=getScreenshot(driver, Result.getName());
+			String screenshotpath1=getScreenshot(driver, Result.getName(),"TC4");
 			String image1= test.addScreenCapture(screenshotpath1);
 			test.log(LogStatus.FAIL, "unable to verify search box  for invalid search Text", image1);		
 			extent.endTest(test);

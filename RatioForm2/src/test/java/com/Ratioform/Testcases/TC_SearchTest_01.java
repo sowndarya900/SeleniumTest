@@ -58,14 +58,14 @@ public class TC_SearchTest_01 extends BasePage{
 	public void TearDown(ITestResult Result) throws IOException {
 		System.out.println("Result.getStatus()"+Result.getStatus());
 		if(Result.getStatus()==ITestResult.SUCCESS) {
-			String screenshotpath=getScreenshot(driver, Result.getName());
+			String screenshotpath=getScreenshot(driver, Result.getName(), "TC1");
 			String image= test.addScreenCapture(screenshotpath);
 			test.log(LogStatus.PASS, "Successfully displayed Search Box on Homepaage", image);		
 			extent.endTest(test);
 		}
 		if(Result.getStatus()==ITestResult.FAILURE) {
 			test.log(LogStatus.FAIL, " Search Box is not displayed on Homepaage");
-			String screenshotpath1=getScreenshot(driver, Result.getName());
+			String screenshotpath1=getScreenshot(driver, Result.getName(), "TC1");
 			String image1= test.addScreenCapture(screenshotpath1);
 			test.log(LogStatus.FAIL, "Search Box is not displayed on Homepaage", image1);		
 			extent.endTest(test);
