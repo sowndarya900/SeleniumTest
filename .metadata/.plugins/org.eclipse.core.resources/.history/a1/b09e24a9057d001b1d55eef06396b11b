@@ -1,9 +1,0 @@
-package ratioform;
-
-import org.testng.annotations.Test;
-
-public class Utility {
-  @Test
-  public void f() {
-  }
-}

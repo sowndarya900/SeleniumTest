@@ -3243,3 +3243,332 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.co
 2021-03-08 13:12:40,540 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-03-08 13:12:40,550 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2021-03-08 13:12:40,551 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 13:12:40,559 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 13:50:31,659 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 13:50:31,673 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 13:50:31,676 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 13:50:31,688 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 13:54:18,986 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 13:54:19,000 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 13:54:19,002 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 13:54:19,012 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 14:12:26,411 [Worker-84: Launching TC_SearchTest_01] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 14:12:26,425 [Worker-84: Launching TC_SearchTest_01] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 14:12:26,426 [Worker-84: Launching TC_SearchTest_01] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 14:12:26,438 [Worker-84: Launching TC_SearchTest_01] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 14:13:55,325 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 14:13:55,341 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 14:13:55,343 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 14:13:55,352 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 14:14:23,885 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 14:14:23,898 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 14:14:23,899 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 14:14:23,910 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 14:16:05,247 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 14:16:05,255 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 14:16:05,256 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 14:16:05,267 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 14:17:22,896 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 14:17:22,904 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 14:17:22,905 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 14:17:22,917 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 14:18:14,270 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 14:18:14,277 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 14:18:14,279 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 14:18:14,287 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 14:18:46,714 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 14:18:46,721 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-08 14:18:46,722 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-08 14:18:46,730 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-09 10:40:30,738 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-03-16 13:56:44,914 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-03-16 15:17:09,066 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-16 15:17:23,065 [Worker-2: Launching TC_SearchTest_06] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 15:17:23,084 [Worker-2: Launching TC_SearchTest_06] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 15:17:23,089 [Worker-2: Launching TC_SearchTest_06] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 15:17:23,102 [Worker-2: Launching TC_SearchTest_06] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 16:15:17,866 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 16:15:17,883 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 16:15:17,885 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 16:15:17,895 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 16:30:09,359 [Worker-1: Launching Executing clean in C__eclipse-workspace_RatioForm2] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-16 16:30:09,362 [Worker-1: Launching Executing clean in C__eclipse-workspace_RatioForm2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-03-16 16:30:11,857 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 16:30:11,871 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 16:30:11,874 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 16:30:11,883 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 16:31:09,733 [Worker-18: Launching RatioForm2] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-16 16:31:09,734 [Worker-18: Launching RatioForm2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests mvn clean install
+2021-03-16 16:31:10,481 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 16:31:10,495 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 16:31:10,496 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 16:31:10,506 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 16:31:29,260 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-16 16:32:40,079 [Worker-18: Launching RatioForm2 (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-16 16:32:40,088 [Worker-18: Launching RatioForm2 (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B mvn test
+2021-03-16 16:34:05,140 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-16 16:34:10,809 [Worker-19: Launching RatioForm2 (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-16 16:34:10,810 [Worker-19: Launching RatioForm2 (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2021-03-16 16:36:22,512 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 16:36:22,533 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 16:36:22,535 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 16:36:22,545 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 17:06:19,673 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-16 18:32:42,748 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:32:42,768 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:32:42,772 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:32:42,783 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:32:48,739 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-16 18:32:57,252 [Worker-13: Launching RatioForm2 (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-16 18:32:57,253 [Worker-13: Launching RatioForm2 (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2021-03-16 18:32:58,766 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RatioForm2:RatioForm2:0.0.1-SNAPSHOT @ C:\eclipse-workspace\RatioForm2\pom.xml.
+2021-03-16 18:32:59,994 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:33:00,012 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:33:00,014 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:33:00,025 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:33:01,875 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:33:01,887 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:33:01,889 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:33:01,898 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:39:08,649 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RatioForm2:RatioForm2:0.0.1-SNAPSHOT @ C:\eclipse-workspace\RatioForm2\pom.xml.
+2021-03-16 18:39:09,703 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:39:09,722 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:39:09,725 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:39:09,735 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:39:11,457 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:39:11,467 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:39:11,469 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:39:11,479 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:44:05,916 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RatioForm2:RatioForm2:0.0.1-SNAPSHOT @ C:\eclipse-workspace\RatioForm2\pom.xml.
+2021-03-16 18:44:06,728 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:44:06,738 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:44:06,742 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:44:06,752 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:44:09,941 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-16 18:44:16,446 [Worker-15: Launching RatioForm2 (6)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-16 18:44:16,447 [Worker-15: Launching RatioForm2 (6)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2021-03-16 18:46:44,502 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RatioForm2:RatioForm2:0.0.1-SNAPSHOT @ C:\eclipse-workspace\RatioForm2\pom.xml.
+2021-03-16 18:46:45,545 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:46:45,557 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:46:45,559 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:46:45,570 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:46:50,158 [Worker-21: Launching RatioForm2 (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-16 18:46:50,159 [Worker-21: Launching RatioForm2 (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2021-03-16 18:47:34,165 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-16 18:47:39,247 [Worker-21: Launching RatioForm2 (7)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-16 18:47:39,247 [Worker-21: Launching RatioForm2 (7)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2021-03-16 18:48:21,835 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:48:21,844 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:48:21,846 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:48:21,853 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:48:45,890 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:48:45,898 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:48:45,899 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:48:45,907 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:49:24,224 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:49:24,235 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:49:24,237 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:49:24,247 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:49:36,117 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-16 18:49:52,356 [Worker-24: Launching RatioForm2 (8)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-16 18:49:52,356 [Worker-24: Launching RatioForm2 (8)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2021-03-16 18:51:11,367 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-16 18:59:24,375 [Worker-5: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RatioForm2:RatioForm2:0.0.1-SNAPSHOT @ C:\eclipse-workspace\RatioForm2\pom.xml.
+2021-03-16 18:59:25,493 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:59:25,508 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:59:25,511 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:59:25,521 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:59:43,825 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:59:43,840 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:59:43,842 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:59:43,854 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:59:50,551 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:59:50,571 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 18:59:50,574 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 18:59:50,588 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 19:00:10,586 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-16 19:00:15,596 [Worker-14: Launching RatioForm2 (9)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-16 19:00:15,597 [Worker-14: Launching RatioForm2 (9)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2021-03-16 19:10:55,456 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-03-16 19:10:56,150 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RatioForm2:RatioForm2:0.0.1-SNAPSHOT @ C:\eclipse-workspace\RatioForm2\pom.xml.
+2021-03-16 19:10:56,946 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RatioForm2/src/main/java
+2021-03-16 19:10:56,946 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RatioForm2/src/main/resources
+2021-03-16 19:10:56,948 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RatioForm2/src/test/java
+2021-03-16 19:10:56,948 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RatioForm2/src/test/resources
+2021-03-16 19:10:57,390 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-03-16 19:10:58,139 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 19:10:58,150 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 19:10:58,151 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 19:10:58,160 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 19:12:45,169 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RatioForm2:RatioForm2:0.0.1-SNAPSHOT @ C:\eclipse-workspace\RatioForm2\pom.xml.
+2021-03-16 19:12:46,122 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 19:12:46,135 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 19:12:46,139 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 19:12:46,149 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 19:12:48,227 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-16 19:12:59,286 [Worker-21: Launching RatioForm2 (10)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-16 19:12:59,286 [Worker-21: Launching RatioForm2 (10)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B --threads 2 test
+2021-03-16 19:14:34,479 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 19:14:34,491 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 19:14:34,494 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 19:14:34,502 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 19:14:39,839 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-16 19:14:46,546 [Worker-18: Launching RatioForm2 (11)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-16 19:14:46,546 [Worker-18: Launching RatioForm2 (11)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2021-03-16 19:28:28,254 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RatioForm2:RatioForm2:0.0.1-SNAPSHOT @ C:\eclipse-workspace\RatioForm2\pom.xml.
+2021-03-16 19:28:28,978 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 19:28:28,991 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 19:28:28,993 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 19:28:29,004 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 19:28:59,478 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 19:28:59,489 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 19:28:59,491 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-16 19:28:59,499 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-16 19:30:15,988 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-17 07:44:20,816 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-17 07:45:54,870 [Worker-6: Launching TC_SearchTest_02] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 07:45:54,884 [Worker-6: Launching TC_SearchTest_02] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 07:45:54,887 [Worker-6: Launching TC_SearchTest_02] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 07:45:54,896 [Worker-6: Launching TC_SearchTest_02] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 07:55:12,176 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 07:55:12,185 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 07:55:12,186 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 07:55:12,199 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 09:54:31,091 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 09:54:31,104 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 09:54:31,107 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 09:54:31,115 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:02:28,910 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-17 10:03:07,313 [Worker-48: Launching RatioForm2 (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-17 10:03:08,680 [Worker-48: Launching RatioForm2 (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B mvn test
+2021-03-17 10:05:40,317 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-17 10:05:59,755 [Worker-52: Launching RatioForm2 (13)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-17 10:05:59,756 [Worker-52: Launching RatioForm2 (13)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2021-03-17 10:07:21,893 [Worker-56: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RatioForm2:RatioForm2:0.0.1-SNAPSHOT @ C:\eclipse-workspace\RatioForm2\pom.xml.
+2021-03-17 10:07:24,308 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:07:24,324 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:07:24,327 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:07:24,337 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:07:29,933 [Worker-56: Launching RatioForm2] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-17 10:07:29,933 [Worker-56: Launching RatioForm2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests mvn clean install
+2021-03-17 10:08:30,987 [Worker-57: Launching RatioForm2 (13)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-17 10:08:30,988 [Worker-57: Launching RatioForm2 (13)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2021-03-17 10:08:49,133 [Worker-57: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RatioForm2:RatioForm2:0.0.1-SNAPSHOT @ C:\eclipse-workspace\RatioForm2\pom.xml.
+2021-03-17 10:08:50,076 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:08:50,089 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:08:50,092 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:08:50,110 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:08:58,997 [Worker-55: Launching RatioForm2 (13)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-17 10:08:58,998 [Worker-55: Launching RatioForm2 (13)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2021-03-17 10:10:28,717 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:10:28,728 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:10:28,729 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:10:28,739 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:10:29,788 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:10:29,825 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:10:29,829 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:10:29,866 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:10:40,300 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:10:40,333 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:10:40,337 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:10:40,362 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:12:21,779 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:12:21,789 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:12:21,792 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:12:21,803 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:12:39,065 [Worker-55: Launching RatioForm2 (13)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-17 10:12:39,066 [Worker-55: Launching RatioForm2 (13)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2021-03-17 10:13:25,824 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:13:25,832 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:13:25,833 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:13:25,840 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:13:26,868 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:13:26,887 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:13:26,891 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:13:26,910 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:13:49,879 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:13:49,898 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:13:49,906 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:13:49,929 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:14:04,433 [Worker-58: Launching RatioForm2 (13)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-17 10:14:04,434 [Worker-58: Launching RatioForm2 (13)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2021-03-17 10:16:32,009 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:16:32,022 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:16:32,023 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:16:32,030 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:16:39,764 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:16:39,780 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:16:39,783 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:16:39,802 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:18:09,750 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:18:09,759 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:18:09,760 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:18:09,768 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:18:31,628 [Worker-59: Launching RatioForm2 (13)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-17 10:18:31,629 [Worker-59: Launching RatioForm2 (13)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2021-03-17 10:19:15,346 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:19:15,354 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:19:15,357 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:19:15,367 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:19:16,429 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:19:16,449 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:19:16,452 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:19:16,478 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:19:20,163 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:19:20,179 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:19:20,184 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:19:20,204 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:21:13,684 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:21:13,698 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:21:13,702 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:21:13,719 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:21:14,756 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:21:14,780 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:21:14,784 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:21:14,803 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:21:24,781 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:21:24,795 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:21:24,797 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:21:24,813 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:22:43,562 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:22:43,573 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:22:43,575 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:22:43,582 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:22:49,774 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:22:49,782 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:22:49,783 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:22:49,793 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:26:49,432 [Worker-63: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RatioForm2:RatioForm2:0.0.1-SNAPSHOT @ C:\eclipse-workspace\RatioForm2\pom.xml.
+2021-03-17 10:26:50,219 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:26:50,228 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:26:50,231 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:26:50,236 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:26:52,008 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:26:52,018 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:26:52,020 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 10:26:52,030 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 10:26:59,291 [Worker-63: Launching RatioForm2 (13)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-17 10:26:59,292 [Worker-63: Launching RatioForm2 (13)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2021-03-17 10:30:21,746 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-17 10:30:46,923 [Worker-67: Launching RatioForm2 (14)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-17 10:30:46,924 [Worker-67: Launching RatioForm2 (14)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2021-03-17 10:31:21,463 [Worker-67: Launching RatioForm2 (14)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-17 10:31:21,463 [Worker-67: Launching RatioForm2 (14)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2021-03-17 10:31:52,709 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-17 10:32:01,093 [Worker-69: Launching RatioForm2 (15)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-17 10:32:01,094 [Worker-69: Launching RatioForm2 (15)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2021-03-17 10:35:59,932 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-17 10:37:27,396 [Worker-69: Launching RatioForm2 (16)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipse-workspace\RatioForm2
+2021-03-17 10:37:27,397 [Worker-69: Launching RatioForm2 (16)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2021-03-17 10:47:45,052 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-03-17 11:00:30,283 [Worker-76: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-03-17 11:00:30,870 [Worker-76: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RatioForm2:RatioForm2:0.0.1-SNAPSHOT @ C:\eclipse-workspace\RatioForm2\pom.xml.
+2021-03-17 11:00:31,605 [Worker-76: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RatioForm2/src/main/java
+2021-03-17 11:00:31,606 [Worker-76: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RatioForm2/src/main/resources
+2021-03-17 11:00:31,607 [Worker-76: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RatioForm2/src/test/java
+2021-03-17 11:00:31,607 [Worker-76: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RatioForm2/src/test/resources
+2021-03-17 11:00:31,962 [Worker-76: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-03-17 11:00:32,746 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 11:00:32,758 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-03-17 11:00:32,760 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-17 11:00:32,771 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-17T09:37:35Z" name="com.Ratioform.Testcases.NavigationTest" finished-at="2021-03-17T09:37:46Z" duration-ms="10821">
+    <groups>
+    </groups>
+    <test started-at="2021-03-17T09:37:35Z" name="Command line test" finished-at="2021-03-17T09:37:46Z" duration-ms="10821">
+      <class name="com.Ratioform.Testcases.NavigationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Ratioform.Testcases.NavigationTest@659a969b]" started-at="2021-03-17T10:37:35Z" name="setUp" finished-at="2021-03-17T10:37:38Z" duration-ms="2815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:com.Ratioform.Testcases.NavigationTest@659a969b]" started-at="2021-03-17T10:37:38Z" name="verifyLogin" finished-at="2021-03-17T10:37:43Z" duration-ms="5350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="TearDown(org.testng.ITestResult)[pri:0, instance:com.Ratioform.Testcases.NavigationTest@659a969b]" started-at="2021-03-17T10:37:43Z" name="TearDown" finished-at="2021-03-17T10:37:46Z" duration-ms="2641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=NavigationTest.verifyLogin()[pri:0, instance:com.Ratioform.Testcases.NavigationTest@659a969b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Ratioform.Testcases.NavigationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.Ratioform.Testcases.NavigationTest -->
+</testng-results>

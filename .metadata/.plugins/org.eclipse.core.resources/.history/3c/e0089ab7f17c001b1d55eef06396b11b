@@ -1,5 +1,0 @@
-package ratioform;
-
-public @interface Beforeclass {
-
-}
