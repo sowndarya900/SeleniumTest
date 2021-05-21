@@ -1,0 +1,86 @@
+
+package com.Innosabispark.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+
+
+
+/**
+ * page object encapsulates the Innovation Challenge page
+ * @author Sowndarya
+ *
+ */
+public class InnovationChallengePage {
+	WebDriver driver;
+
+	By inchallenge=By.xpath("//div[@class='card-content']//h2");
+	By Nextbutton=By.xpath("//button[@type='button']");
+	By password=By.xpath("//input[@id='password']");
+	By login=By.xpath("//button[contains(text(),' Login ')]");
+	By forgotpassword=By.xpath("//a[text()='Forgot Password?']");
+	By Resetpassword=By.xpath("//button[text()=' Reset password ']");
+
+	By imagespark=By.xpath("(//img[@alt='Platform Logo'])[1]");
+	By errormessage=By.xpath("//div[@class='auth-error']");
+	By searchresult=By.xpath("//div[@class='sort__col sort__col--counter col']");
+
+	public InnovationChallengePage(WebDriver driver) 
+	{
+		this.driver=driver;
+	}
+
+	
+	
+	//to click next button
+	public void next() throws InterruptedException 
+	{
+		driver.findElement(Nextbutton).click();
+
+	}
+	//to Enter password in the textbox
+	public void password(String pwd) throws InterruptedException 
+	{
+		driver.findElement(password).sendKeys(pwd);
+
+	}
+	//to click login button
+	public void clicklogin() throws InterruptedException 
+	{
+		driver.findElement(login).click();
+
+	}
+	//to click  forgot password link
+	public void forgotpassword() throws InterruptedException 
+	{
+		driver.findElement(forgotpassword).click();
+
+	}
+
+	//to click  reset password button
+	public void resetpassword() throws InterruptedException 
+	{
+		driver.findElement(Resetpassword).click();
+
+	}
+	//To verify Innovation challenge image present in homepage
+	public Boolean verifyInnovationchallenge() 
+	{
+		Boolean innchallenge=driver.findElement(inchallenge).isDisplayed();
+		return innchallenge;
+	} 
+	
+	//To click   Innovation challenge on homepage
+		public void clickInnovationchallenge() 
+		{
+			driver.findElement(inchallenge).click();
+			
+		}
+		
+}
+		
+	

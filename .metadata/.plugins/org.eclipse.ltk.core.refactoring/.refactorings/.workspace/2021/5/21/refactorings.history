@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RatioForm2&apos; to &apos;Innosabi Spark&apos;" description="Rename resource &apos;RatioForm2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/RatioForm2" name="Innosabi Spark" stamp="1621505699245" updateReferences="true"/>
+</session>

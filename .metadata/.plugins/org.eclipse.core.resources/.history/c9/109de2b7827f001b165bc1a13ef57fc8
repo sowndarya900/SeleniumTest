@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Gmail Suite" annotations="JDK" parallel="tests">
+         
+  <test name="com.Ratioform.Testcases">
+	 <classes>
+	   <class name="NavigationTest"/>
+	    <class name="TC_SearchTest_01"/>
+	 </classes>
+   </test>
+   
+  
+</suite>
